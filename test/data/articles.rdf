@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<rdf:RDF 
+  xmlns="https://github.com/ANybakk/Snorky/blob/development/test/data/schemas/articles#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+  <Article rdf:about="https://github.com/ANybakk/Snorky/blob/development/test/testing-snorky.txt">
+    <dc:type>Text</dc:type>
+    <dc:language>en</dc:language>
+    <dc:title>Testing Snorky</dc:title>
+    <dc:creator href="https://github.com/ANybakk/Snorky/blob/development/test/data/people.rdf#ARNY" />
+    <dc:date>2011-11-04</dc:date>
+    <dc:description>A short text on testing Snorky.</dc:description>
+    <dc:subject>Snorky, RDF, semantic web</dc:subject>
+  </Article>
+
+  <Article rdf:about="https://github.com/ANybakk/Snorky/blob/development/test/using-aliases.txt">
+    <dc:type>Text</dc:type>
+    <dc:language>en</dc:language>
+    <dc:title>Using aliases</dc:title>
+    <dc:creator href="https://github.com/ANybakk/Snorky/blob/development/test/data/person/john-doe.rdf" />
+    <dc:date>2011-11-03</dc:date>
+    <dc:description>A very interesting article on using aliases.</dc:description>
+    <dc:subject>aliases, disguise</dc:subject>
+  </Article>
+
+  <Article rdf:about="https://github.com/ANybakk/Snorky/blob/development/test/the-art-of-disguise.txt">
+    <dc:type>Text</dc:type>
+    <dc:language>en</dc:language>
+    <dc:title>The art of disguise</dc:title>
+    <dc:creator href="https://github.com/ANybakk/Snorky/blob/development/test/data/people.rdf#JODO" />
+    <dc:date>2011-11-02</dc:date>
+    <dc:description>The master of disguise shares his trade secrets.</dc:description>
+    <dc:subject>disguise</dc:subject>
+  </Article>
+
+</rdf:RDF>
