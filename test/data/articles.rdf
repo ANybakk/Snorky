@@ -8,7 +8,7 @@
     <dc:type>Text</dc:type>
     <dc:language>en</dc:language>
     <dc:title>Testing Snorky</dc:title>
-    <dc:creator href="https://raw.github.com/ANybakk/Snorky/development/test/data/people.rdf#ARNY" />
+    <dc:creator rdf:href="https://raw.github.com/ANybakk/Snorky/development/test/data/people.rdf#ARNY" />
     <dc:date>2011-11-04</dc:date>
     <dc:description>A short text on testing Snorky.</dc:description>
     <dc:subject>Snorky, RDF, semantic web</dc:subject>
@@ -18,7 +18,7 @@
     <dc:type>Text</dc:type>
     <dc:language>en</dc:language>
     <dc:title>Using aliases</dc:title>
-    <dc:creator href="https://raw.github.com/ANybakk/Snorky/development/test/data/person/john-doe.rdf" />
+    <dc:creator rdf:href="https://raw.github.com/ANybakk/Snorky/development/test/data/person/john-doe.rdf" />
     <dc:date>2011-11-03</dc:date>
     <dc:description>A very interesting article on using aliases.</dc:description>
     <dc:subject>aliases, disguise</dc:subject>
@@ -28,7 +28,7 @@
     <dc:type>Text</dc:type>
     <dc:language>en</dc:language>
     <dc:title>The art of disguise</dc:title>
-    <dc:creator href="https://raw.github.com/ANybakk/Snorky/development/test/data/people.rdf#JODO" />
+    <dc:creator rdf:href="https://raw.github.com/ANybakk/Snorky/development/test/data/people.rdf#JODO" />
     <dc:date>2011-11-02</dc:date>
     <dc:description>The master of disguise shares his trade secrets.</dc:description>
     <dc:subject>disguise</dc:subject>
