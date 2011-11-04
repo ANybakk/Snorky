@@ -4,7 +4,7 @@
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
   xmlns:dc="http://purl.org/dc/elements/1.1/">
 
-  <Article rdf:about="https://raw.github.com/ANybakk/Snorky/development/test/testing-snorky.txt">
+  <Article rdf:about="https://raw.github.com/ANybakk/Snorky/development/test/data/article/testing-snorky.txt">
     <dc:type>Text</dc:type>
     <dc:language>en</dc:language>
     <dc:title>Testing Snorky</dc:title>
@@ -14,7 +14,7 @@
     <dc:subject>Snorky, RDF, semantic web</dc:subject>
   </Article>
 
-  <Article rdf:about="https://raw.github.com/ANybakk/Snorky/development/test/using-aliases.txt">
+  <Article rdf:about="https://raw.github.com/ANybakk/Snorky/development/test/data/article/using-aliases.txt">
     <dc:type>Text</dc:type>
     <dc:language>en</dc:language>
     <dc:title>Using aliases</dc:title>
@@ -24,7 +24,7 @@
     <dc:subject>aliases, disguise</dc:subject>
   </Article>
 
-  <Article rdf:about="https://raw.github.com/ANybakk/Snorky/development/test/the-art-of-disguise.txt">
+  <Article rdf:about="https://raw.github.com/ANybakk/Snorky/development/test/data/article/the-art-of-disguise.txt">
     <dc:type>Text</dc:type>
     <dc:language>en</dc:language>
     <dc:title>The art of disguise</dc:title>
