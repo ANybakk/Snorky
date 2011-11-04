@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<rdf 
+  xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/">
+
+  <foaf:Person ID="JODO" about="https://raw.github.com/ANybakk/Snorky/development/test/data/person/john-doe.rdf" />
+  <foaf:Person ID="ARNY" about="http://arenybakk.com">
+    <foaf:name>Are Nybakk</foaf:name>
+  </foaf:Person>
+  <foaf:Person ID="JANI">
+    <foaf:name>Jack Nielsen</foaf:name>
+  </foaf:Person>
+  <foaf:Person ID="JIST">
+    <foaf:name>Jill Steephill</foaf:name>
+  </foaf:Person>
+
+</rdf>
