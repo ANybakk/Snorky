@@ -1,34 +1,34 @@
 <?xml version="1.0"?>
 <rdf:RDF 
-  xmlns="https://raw.github.com/ANybakk/Snorky/development/test/data/schemas/Article.rdf#"
+  xmlns="http://anybakk.github.com/Snorky/test/data/schemas/Article.rdf#"
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
   xmlns:dc="http://purl.org/dc/elements/1.1/">
 
-  <Article rdf:about="https://raw.github.com/ANybakk/Snorky/development/test/data/article/testing-snorky.txt">
+  <Article rdf:about="http://anybakk.github.com/Snorky/test/test/data/article/testing-snorky.txt">
     <dc:type>Text</dc:type>
     <dc:language>en</dc:language>
     <dc:title>Testing Snorky</dc:title>
-    <dc:creator rdf:resource="https://raw.github.com/ANybakk/Snorky/development/test/data/people.rdf#ARNY" />
+    <dc:creator rdf:resource="http://anybakk.github.com/Snorky/test/data/people.rdf#ARNY" />
     <dc:date>2011-11-04</dc:date>
     <dc:description>A short text on testing Snorky.</dc:description>
     <dc:subject>Snorky, RDF, semantic web</dc:subject>
   </Article>
 
-  <Article rdf:about="https://raw.github.com/ANybakk/Snorky/development/test/data/article/using-aliases.txt">
+  <Article rdf:about="http://anybakk.github.com/Snorky/test/data/article/using-aliases.txt">
     <dc:type>Text</dc:type>
     <dc:language>en</dc:language>
     <dc:title>Using aliases</dc:title>
-    <dc:creator rdf:resource="https://raw.github.com/ANybakk/Snorky/development/test/data/person/john-doe.rdf" />
+    <dc:creator rdf:resource="http://anybakk.github.com/Snorky/test/data/person/john-doe.rdf" />
     <dc:date>2011-11-03</dc:date>
     <dc:description>A very interesting article on using aliases.</dc:description>
     <dc:subject>aliases, disguise</dc:subject>
   </Article>
 
-  <Article rdf:about="https://raw.github.com/ANybakk/Snorky/development/test/data/article/the-art-of-disguise.txt">
+  <Article rdf:about="http://anybakk.github.com/Snorky/test/data/article/the-art-of-disguise.txt">
     <dc:type>Text</dc:type>
     <dc:language>en</dc:language>
     <dc:title>The art of disguise</dc:title>
-    <dc:creator rdf:resource="https://raw.github.com/ANybakk/Snorky/development/test/data/people.rdf#JODO" />
+    <dc:creator rdf:resource="http://anybakk.github.com/Snorky/test/data/people.rdf#JODO" />
     <dc:date>2011-11-02</dc:date>
     <dc:description>The master of disguise shares his trade secrets.</dc:description>
     <dc:subject>disguise</dc:subject>
