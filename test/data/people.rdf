@@ -3,14 +3,14 @@
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
   xmlns:foaf="http://xmlns.com/foaf/0.1/">
 
-  <foaf:Person rdf:ID="JODO" rdf:about="http://anybakk.github.com/Snorky/test/data/person/john-doe.rdf" />
-  <foaf:Person rdf:ID="ARNY" rdf:about="http://arenybakk.com">
+  <foaf:Person rdf:about="http://anybakk.github.com/Snorky/test/data/person/john-doe.rdf" />
+  <foaf:Person rdf:about="http://arenybakk.com">
     <foaf:name>Are Nybakk</foaf:name>
   </foaf:Person>
-  <foaf:Person ID="JANI">
+  <foaf:Person rdf:ID="JANI">
     <foaf:name>Jack Nielsen</foaf:name>
   </foaf:Person>
-  <foaf:Person ID="JIST">
+  <foaf:Person rdf:ID="JIST">
     <foaf:name>Jill Steephill</foaf:name>
   </foaf:Person>
 

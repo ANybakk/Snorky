@@ -1,7 +1,55 @@
 <?xml version="1.0"?>
+
 <rdf:RDF
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"  
   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-  xml:base="http://anybakk.github.com/Snorky/test/data/schemas/Article">
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:dc="http://purl.org/dc/elements/1.1/">
 
-<rdfs:Class rdf:ID="Article" />
+  <owl:Ontology rdf:ID="Types">
+    <dc:title>Snorky test data ontology</dc:title>
+    <dc:description>A simple ontology for testing Snorky</dc:description>
+  </owl:Ontology>
+
+  <owl:Class rdf:ID="Article">
+    <rdfs:subClassOf>
+      <owl:Restriction> 
+        <owl:onProperty rdf:resource="#releated"/>
+        <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">1</owl:minCardinality>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:label xml:lang="en">Article</rdfs:label>
+    <rdfs:label xml:lang="nb">Artikkel</rdfs:label>
+    <rdfs:comment xml:lang="en">Generic article type</rdfs:comment>
+    <rdfs:comment xml:lang="nb">Generisk artikkeltype</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:ID="NewsArticle">
+    <rdfs:subClassOf rdf:resource="#Article" />
+    <rdfs:label xml:lang="en">News Article</rdfs:label>
+    <rdfs:label xml:lang="nb">Nyhetsartikkel</rdfs:label>
+    <rdfs:comment xml:lang="en">A news article</rdfs:comment>
+    <rdfs:comment xml:lang="nb">En nyhetsartikkel</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:ID="NewsReporter">
+    <rdfs:label xml:lang="en">News Reporter</rdfs:label>
+    <rdfs:label xml:lang="nb">Nyhetsreporter</rdfs:label>
+    <rdfs:comment xml:lang="en">A news reporter</rdfs:comment>
+    <rdfs:comment xml:lang="nb">En nyhetsreporter</rdfs:comment>
+  </owl:Class>
+
+  <owl:DatatypeProperty rdf:ID="keyword" />
+  
+  <owl:ObjectProperty rdf:ID="releated">
+    <rdfs:domain rdf:resource="#Article"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </owl:ObjectProperty>
+  
+  <owl:ObjectProperty rdf:ID="reportedBy">
+    <rdfs:domain rdf:resource="#NewsArticle"/>
+    <rdfs:range rdf:resource="#NewsReporter"/> 
+  </owl:ObjectProperty>
+  
+
+</rdf:RDF>
