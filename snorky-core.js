@@ -28,9 +28,9 @@ var Binding = function(objQuery, jqElement) {
   };
   
   if(jqElement.on) { //jQ7
-    jqElement.on("snorky-poll", funcPoll);
+    jqElement.on(TRIGGERS.POLL.name, funcPoll);
   } else if(jqElement.bind) {
-    jqElement.bind(eventType, funcPoll);
+    jqElement.bind(TRIGGERS.POLL.name, funcPoll);
   }
   this.jqElement = jqElement;
   
